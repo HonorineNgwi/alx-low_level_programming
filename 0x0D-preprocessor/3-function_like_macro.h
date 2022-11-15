@@ -1,16 +1,6 @@
-#ifndef ABS
-#define ABS
-#include <stdio.h>
+#ifndef HEADER
+#define HEADER
 
-/**
- * main - computes the absolute value of a number x
- * Return: 0
- */
+#define ABS(x) ((x) < 0 ? (-(x)) : (x))
 
-int main(void)
-{
-	int x;
-
-	return (ABS(x));
-}
 #endif
