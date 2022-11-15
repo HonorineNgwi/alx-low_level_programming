@@ -11,7 +11,6 @@ int main(void)
 {
 	int x;
 
-	printf("%d\n", ABS(x));
-	return (0);
+	return (ABS(x));
 }
 #endif
